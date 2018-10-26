@@ -1,0 +1,24 @@
+{
+  "name": "serenity-parser",
+  "version": "1.0.0",
+  "description": "Custom parser for qTest to aggregrate serenity results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnestoLCortez/serenity-qtest-parser.git"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "globby": "^8.0.1",
+    "xml2js": "latest"
+  },
+  "author": "Ernesto Cortez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnestoLCortez/serenity-qtest-parser/issues"
+  },
+  "homepage": "https://github.com/ErnestoLCortez/serenity-qtest-parser#readme"
+}
