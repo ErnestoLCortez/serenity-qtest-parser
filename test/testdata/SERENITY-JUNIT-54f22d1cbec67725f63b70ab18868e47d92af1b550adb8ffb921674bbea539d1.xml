@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="cig.insurance.automation.features.account.createaccount.CreateAccountStory" skipped="0" tests="1" time="26.35" timestamp="2018-10-02 07:34:57"><testcase classname="cig.insurance.automation.features.account.createaccount.CreateAccountStory" name="Should be able to create business account"><failure message="&#10;Expected: to display 'heading' as &quot;Account File Summary&quot;&#10;     but: displayed  'heading' as &quot;Create account&quot;" type="java.lang.AssertionError">
+Expected: to display 'heading' as "Account File Summary"
+     but: displayed  'heading' as "Create account"</failure><system-err>
+Expected: to display 'heading' as "Account File Summary"
+     but: displayed  'heading' as "Create account"&#13;
+cig.insurance.automation.features.account.createaccount.CreateAccountStory.should_be_able_to_create_business_account(CreateAccountStory.java:59)&#13;
+</system-err></testcase></testsuite>

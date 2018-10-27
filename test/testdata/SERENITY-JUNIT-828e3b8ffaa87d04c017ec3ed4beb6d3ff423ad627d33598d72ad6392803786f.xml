@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="13" failures="0" name="cig.insurance.automation.features.business_owners_policy.earthquake.EQClassificationStory" skipped="0" tests="40" time="4264.39" timestamp="2018-10-11 03:10:02"><testcase classname="cig.insurance.automation.features.business_owners_policy.earthquake.EQClassificationStory" name="Should see eq coverage if classification is eligible"><error message="The following error occurred: The following error occurred: Expected condition failed: waiting for By.xpath: /html/body/div[1]/div[@id='centerPanel']/table/tbody/tr/td/div/table/tbody//label[text()='Number of Units'][1]/../following-sibling::td//input to be displayed (tried for 120 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: The following error occurred: Expected condition failed: waiting for By.xpath: /html/body/div[1]/div[@id='centerPanel']/table/tbody/tr/td/div/table/tbody//label[text()='Number of Units'][1]/../following-sibling::td//input to be displayed (tried for 120 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: The following error occurred: Expected condition failed: waiting for By.xpath: /html/body/div[1]/div[@id='centerPanel']/table/tbody/tr/td/div/table/tbody//label[text()='Number of Units'][1]/../following-sibling::td//input to be displayed (tried for 120 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown&#13;
+cig.insurance.automation.screenplay.actions.input.InputValueIntoTarget.performAs(InputValueIntoTarget.java:35)&#13;
+cig.insurance.automation.screenplay.tasks.FillFields.FillFields.performAs(FillFields.java:38)&#13;
+cig.insurance.automation.screenplay.tasks.Create.CreatePolicyLocations.performAs(CreatePolicyLocations.java:33)&#13;
+cig.insurance.automation.screenplay.tasks.start.StartBusinessOwnersSubmissionUpTo.performAs(StartBusinessOwnersSubmissionUpTo.java:70)&#13;
+cig.insurance.automation.features.business_owners_policy.earthquake.EQClassificationStory.should_see_eq_coverage_if_classification_is_eligible(EQClassificationStory.java:98)&#13;
+</system-err></testcase><testcase classname="cig.insurance.automation.features.business_owners_policy.earthquake.EQClassificationStory" name="Should see that eqsl contents susceptibility menu is populated"><error message="The following error occurred: The following error occurred: Expected condition failed: waiting for By.xpath: /html/body/div[1]/div[@id='centerPanel']/table/tbody/tr/td/div/table/tbody//label[text()='Number of Units'][1]/../following-sibling::td//input to be displayed (tried for 120 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: The following error occurred: Expected condition failed: waiting for By.xpath: /html/body/div[1]/div[@id='centerPanel']/table/tbody/tr/td/div/table/tbody//label[text()='Number of Units'][1]/../following-sibling::td//input to be displayed (tried for 120 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: The following error occurred: Expected condition failed: waiting for By.xpath: /html/body/div[1]/div[@id='centerPanel']/table/tbody/tr/td/div/table/tbody//label[text()='Number of Units'][1]/../following-sibling::td//input to be displayed (tried for 120 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'LECORTEZ1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: driver.version: unknown&#13;
+cig.insurance.automation.screenplay.actions.input.InputValueIntoTarget.performAs(InputValueIntoTarget.java:35)&#13;
+cig.insurance.automation.screenplay.tasks.FillFields.FillFields.performAs(FillFields.java:38)&#13;
+cig.insurance.automation.screenplay.tasks.Create.CreatePolicyLocations.performAs(CreatePolicyLocations.java:33)&#13;
+cig.insurance.automation.screenplay.tasks.start.StartBusinessOwnersSubmissionUpTo.performAs(StartBusinessOwnersSubmissionUpTo.java:70)&#13;
+cig.insurance.automation.features.business_owners_policy.earthquake.EQClassificationStory.should_see_that_eqsl_contents_susceptibility_menu_is_populated(EQClassificationStory.java:77)&#13;
+</system-err></testcase></testsuite>
