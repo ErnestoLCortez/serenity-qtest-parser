@@ -185,5 +185,8 @@ async function parse(pathToTestResult, options) {
 };
 
 module.exports = {
-  parse: parse
+  parse,
+  collectTestFiles,
+  parseFile,
+  buildTestResultByMethodName,
 };
