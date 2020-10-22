@@ -1,5 +1,5 @@
 "use strict";
-
+const undef = undefined;
 const fs = require("fs");
 const globby = require("globby");
 const xml2js = require("xml2js");
