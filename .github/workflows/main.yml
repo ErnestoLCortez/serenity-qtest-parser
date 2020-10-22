@@ -1,0 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Master Branch Rules
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: deepakputhraya/action-branch-name@master
+      with:
+        regex: '\/((\d{4}\.\d{2}\.\d{2})|(([A-Z]){2,3}-\d{1,8}\/([a-zA-Z])+))' # Regex the branch should match. This example enforces grouping
+        allowed_prefixes: 'release,hotfix' # All branches should start with the given prefix
+        ignore: master,develop # Ignore exactly matching branch names from convention
+        min_length: 5 # Min length of the branch name
+        max_length: 100 # Max length of the branch name
